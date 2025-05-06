@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --exec bun run src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.7.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "license": "MIT"
+}

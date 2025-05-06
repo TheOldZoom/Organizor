@@ -1,3 +1,3 @@
 # Organizor
 
-Organizor is a application that helps you organize your time, stuff & more..
+Organizor is an application made with react native & [ERouter](https://github.com/TheOldZoom/ERouter) that will help you organize yourself, helps quit addictions..
